@@ -11,4 +11,6 @@
  * @returns: 给定模板字符串的原始字符串。
  */
 const result = String.raw`Hi\n${2 + 3}!`
+const result1 = `Hi\n${2 + 3}!`
 console.log(result)
+console.log(result1)
